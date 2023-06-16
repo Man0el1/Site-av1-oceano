@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    background: #b4c2f36e;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+#navitens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+}
+#headerlogo{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    text-decoration: none;
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    transition: 0.3s;
+}
+#logodiv{
+    display: flex;
+    position: relative;
+    background: url(ant-rozetsky-q-DJ9XhKkhA-unsplash.jpg) no-repeat;
+    background-size: 100% 152%;
+    padding-bottom: 2vw;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    --mask:
+    radial-gradient(14.696rem at 50% calc(100% - 18.375rem),#000 99%,#0000 101%) calc(50% - 12.25rem) 0/24.5rem 100%,
+    radial-gradient(13.696rem at 50% calc(89% + 0.063rem),#0000 99%,#000 101%) 50% calc(100% - 6.125rem)/24.5rem 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+    z-index: 3;
+    animation: wave 20s linear infinite;
+}
+@keyframes gradient {
+    0% {
+    }
+    50% {
+    }
+    100% {
+    }
+}
+#logo{
+    font-size: 6rem;
+    margin-top: 9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#subtitulo{
+    text-align: center;
+    font-style: oblique;
+    margin-bottom: 17rem;
+}
+#div2{
+    padding-bottom: 80rem;
+}
+main{
+    background-image: linear-gradient(#00b2c8,#00141a);
+    padding-top: 10rem;
+    margin-top: -13rem;
+}
