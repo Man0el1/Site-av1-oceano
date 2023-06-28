@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    margin-top: -51px;
 }
 header{
     display: flex;
@@ -42,29 +43,49 @@ header{
   -webkit-mask: var(--mask);
           mask: var(--mask);
     z-index: 3;
-    animation: wave 20s linear infinite;
+    animation: wve 20s linear infinite;
 }
-@keyframes gradient {
-    0% {
+@keyframes wave {
+    0% {top: 0px;
     }
-    50% {
+    50% {top: 200px;
     }
-    100% {
+    100% {top: 0px;
     }
+}
+.a{
+    display: flex;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #70a8fe3d;
+    justify-content: center;
+
 }
 #logo{
     font-size: 6rem;
     margin-top: 9rem;
     margin-bottom: 1rem;
-    text-align: center;
 }
 #subtitulo{
-    text-align: center;
     font-style: oblique;
-    margin-bottom: 17rem;
+    margin-bottom: 13rem;
+}
+.divnormal{
+    background-color: #70a8fe1c;
+    border-radius: 10px;
+    color: white;
+}
+#div1{
+    margin-left: 3vw;
+    max-width: 45vw;
+    margin-top: 8rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
 }
 #div2{
     padding-bottom: 80rem;
+    background-color: rgba(0, 0, 0, 0);
 }
 main{
     background-image: linear-gradient(#00b2c8,#00141a);
